@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+@font-face {
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zen Antique Soft', serif;
+}
+.header{
+    padding: 20px 0px 40px 0px;
+    color: #989898 !important;
+    font-weight: 600;
+    background-image: url(img/bg-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.menu ul li{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.menu ul li a{
+    color: #989898 !important;
+    transition: 0.54s;
+}
+.menu ul li a:hover{
+    color: #ffb507 !important;
+    border-bottom: 3px solid #ffb507;
+
+}
+.login-btn{
+    border: 1px solid #989898;
+    padding: 10px 20px;
+    color: #989898 ;
+    font-weight: 600;
+    transition: 0.5s ease-in;
+}
+.login-btn:hover{
+    background-color: #ffb507;
+    color: #fff;
+    border:none;
+}
+.banner-des{
+    font-family: 'Poppins', sans-serif;
+    margin: 70px 0 30px 0px;
+}
+.banner-des h1{
+    font-weight: 600;
+    color: #003167;
+    font-size: 65px;
+}
+.banner-des p{
+    color: #989898;
+}
+.banner-btn button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #ffb507;
+    color: #fff;
+    margin: 0 20px;
+    border-radius: 0;
+    padding: 10px 20px ;
+    transition: 0.5s ease-in;
+}
+.banner-btn button:nth-child(1):hover{
+    border: 1px solid #ffb507;
+    background-color: transparent;
+    color: #ffb507;
+}
+.banner-btn button:nth-child(2){
+    border: 1px solid #989898;
+    background-color: transparent;
+    color: #989898;
+    transition: 0.5s ease-in;
+}
+.banner-btn button:nth-child(2):hover{
+    background-color: #ffb507;
+    color: #fff;
+}
+.banner-img{
+    margin-top: 40px;
+}
+
+/* navbar hamburger */
+.navbar-light .navbar-toggler {
+    border: 2px solid #ffb507;
+    color: #ffb507;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* service start */
+.service{
+    padding: 70px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.service-icon img{
+    width: 95px;
+    height: 92px;
+}
+.service-text p{
+width: 190px;
+margin: auto;
+font-weight: 400;
+}
+.shopping-text, .safe-text h2{
+    color: #003167;
+}
+.service-bg{
+    background-image: url(img/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:70px;
+    color: #fff;
+}
+
+.service-bg .banner-btn button{
+    margin: 0;
+}
+.service-t{
+    margin: 80px 0 0px 80px;
+}
+/* service end */
+
+/* features start */
+
+.features{
+    padding: 70px;
+}
+.common-title h3{
+    color: #003167;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.common-title p{
+    font-family: 'Lato', sans-serif;
+    color: #989898;
+}
+.features-text h3{
+    font-family: 'Zen Antique Soft', serif;
+}
+/* master card start */
+.master-card{
+    padding: 70px 0;
+
+}
+.card-text{
+    margin: 0;
+}
+.card-text h2{
+    color: #003167;
+}
+.card-text p{
+    color: #989898;
+}
+/* shopping start */
+.shopping, .safe, .working, .mobile-application{
+    padding: 70px 0;
+}
+.process{
+    background-color: #f4f4f4;
+    border-top-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+    padding: 70px;
+}
+.proces{
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 13%;
+}
+.proces img{
+    width: 90%;
+}
+/* mobile application */
+.mobile-text h4{
+    color: #05cab6;
+}
+/* footer */
+.footer{
+    padding: 70px 0;
+
+}
+.menu ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.social ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: #989898;
+    transition: 0.5s ease-in;
+    font-size: 30px;
+}
+.social ul li a:hover{
+    background-color: #ffb507;
+    color: #fff;
+    transition: 0.5s ease-in;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* side effect */
+.line-left-1{
+    left: 0;
+    margin-top: -10rem;
+}
+
+.extra-img-left{
+    position: absolute;
+}
+.extra-img-right{
+    position: absolute;
+    right: 0;
+    margin-top: -12%;
+}

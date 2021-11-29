@@ -1,0 +1,92 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 320px) and (max-width: 575.9px){
+    .shopping, .safe, .working, .mobile-application{
+        padding: 40px 0;
+    }
+    .banner-des h1 {
+        font-size: 25px;
+    }
+    .banner-des p {
+        font-size: 14px;
+    }
+    .banner-btn button:nth-child(2){
+        margin-top: 15px;
+    }
+    .menu ul li a:hover{
+        border-bottom: none;
+
+    }
+    .service-bg {
+        padding: 20px 10px 70px 10px;
+
+    }
+    .service-t{
+        margin: 0;
+    }
+    .payment-img{
+        margin-top: 20px;
+    }
+    .apple-btn{
+        margin-top: 15px !important;
+    }
+    .text-custom-center{
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+
+    .menu ul li a:hover{
+        border-bottom: none;
+
+    }
+    .apple-btn{
+        margin-top: 25px !important;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu ul li a:hover{
+        border-bottom: none;
+
+    }
+    .payment-img{
+        width: 400px;
+    }
+    .proces {
+        margin-left: 17%;
+    }
+    .proces img {
+        width: 72%;
+    }
+    .apple-btn{
+        margin-top: 25px !important;
+    }
+
+  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .apple-btn{
+        margin-top: 0px !important;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
+@media( min-width: 2559px){
+    .service-bg {
+        padding: 250px;
+
+    }
+}
